@@ -9,7 +9,9 @@ https://drive.google.com/file/d/1SI53XGZTNCkP4Y2z2TsK3p4c5ZM2ybZj/view?usp=drive
 
 In Linux OS, copy '/include' to '/usr/local/include' and "libtensorflow_cc.so.2" and "libtensorflow_framework.so.2" to '/usr/local/lib'.
 Create Symbolic Links for Shared Libraries:
+
 sudo ln -s libtensorflow_cc.so.2 libtensorflow_cc.so
+
 sudo ln -s libtensorflow_framework.so.2 libtensorflow_framework.so
 
 The abaqus_v6.env defines the include directory and linking against the shared objects.
