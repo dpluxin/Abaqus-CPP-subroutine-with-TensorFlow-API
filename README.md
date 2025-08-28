@@ -2,9 +2,8 @@ To use GCC compiler for Abaqus CPP user subroutine, the following tensorflow pac
 #Version: tensorflow-2.12.0
 #Python version: 3.8-3.11
 #Compiler: GCC 9.3.1
-#Build tools: Bazel 5.3.0"
-
-(https://www.tensorflow.org/install/source)
+#Build tools: Bazel 5.3.0
+#(https://www.tensorflow.org/install/source)
 
 You can also download the pre-built object files and required packages from:
 
